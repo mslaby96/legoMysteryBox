@@ -1,0 +1,109 @@
+body {
+  font-weight: bold;
+}
+
+.shipment-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.shipment-figure-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 95%;
+  margin: 24px 0px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 1);
+}
+
+.shipment-figure-details-margin {
+  margin-left: 8px;
+}
+
+.shipment-figure-details-container {
+  margin: 16px;
+}
+
+.shipment-figure-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shipment-figure-part {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.shipment-figure-part-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+
+.shipment-figure-part-info {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.shipment-figure-part-info p {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shipment-figure-part-id {
+  color: #feb476;
+}
+
+.shipmentDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 48px;
+  width: 1000px;
+}
+
+.shipmentDetails h1 {
+  color: white;
+}
+
+.shipment-button--ship {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100% - 32px);
+  margin: 0px 16px 5rem 16px;
+}
+
+.shipmentDetails-input-container {
+  display: flex;
+}
+
+.shipmentDetails-form-input {
+  width: 100%;
+}
+
+.shipmentDetails-form-error {
+  color: #bf1650;
+}
+
+input {
+  height: 50px;
+  width: calc(100% - 52px);
+  margin-right: 48px;
+  margin-top: 48px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}

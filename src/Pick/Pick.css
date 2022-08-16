@@ -1,0 +1,60 @@
+.pick-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pick-container h1 {
+  color: white;
+}
+
+.pick-figures {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pick-figure-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 1);
+  font-weight: 800;
+  padding: 16px;
+  background-color: white;
+  border-radius: 5%;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.pick-figure-card-default:hover {
+  transform: scale(1.25, 1.25);
+  box-shadow: 0 5px 50px rgba(243, 129, 10, 1);
+}
+
+.pick-figure-card-selected {
+  box-shadow: 0px 0px 5px 10px rgba(243, 129, 10, 1);
+  border: none;
+}
+
+.pick-figure-card--showDetails {
+  margin-top: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 8px;
+}
